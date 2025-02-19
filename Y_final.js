@@ -9,6 +9,7 @@ function cashOut(money) {
     return cashoutCharge;
 }
 
+
 function validEmail(email) {
     if (typeof email !== "string") {
         return "Invalid";
@@ -63,6 +64,7 @@ function electionResult(votes) {
     }
 }
 
+
 function isBestFriend(f1, f2) {
     if (typeof f1 !== "object" || typeof f2 !== "object" ||
         f1 === null || f2 === null) {
@@ -77,6 +79,7 @@ function isBestFriend(f1, f2) {
         return false;
     }
 }
+
 
 function calculateWatchTime(times) {
     if (!Array.isArray(times)) {

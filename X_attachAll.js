@@ -9,6 +9,7 @@ function cashOut(money) {
     let cashoutCharge = (money * 1.75) / 100;
     return cashoutCharge;
 }
+
 //Problem 2
 function validEmail(email) {
     if (typeof email !== "string") {
@@ -34,6 +35,7 @@ function validEmail(email) {
     }
     return true;
 }
+
 //Problem 3
 function electionResult(votes) {
     if (!Array.isArray(votes)) {
@@ -62,6 +64,7 @@ function electionResult(votes) {
         return "Draw";
     }
 }
+
 //Problem 4
 function isBestFriend(f1, f2) {
     if (typeof f1 !== "object" || typeof f2 !== "object" ||
@@ -77,6 +80,7 @@ function isBestFriend(f1, f2) {
         return false;
     }
 }
+
 //Problem 5
 function calculateWatchTime(times) {
     if (!Array.isArray(times)) {
