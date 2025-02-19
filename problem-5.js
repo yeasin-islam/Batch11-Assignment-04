@@ -53,7 +53,6 @@
 
 
 
-
 // solution
 function calculateWatchTime(times) {
     if (!Array.isArray(times)) {

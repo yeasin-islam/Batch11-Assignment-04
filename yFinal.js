@@ -1,4 +1,3 @@
-//Problem 1
 function cashOut(money) {
     if (typeof money !== 'number' || money < 0) {
         return "Invalid";
@@ -10,7 +9,6 @@ function cashOut(money) {
     return cashoutCharge;
 }
 
-//Problem 2
 function validEmail(email) {
     if (typeof email !== "string") {
         return "Invalid";
@@ -36,7 +34,6 @@ function validEmail(email) {
     return true;
 }
 
-//Problem 3
 function electionResult(votes) {
     if (!Array.isArray(votes)) {
         return "Invalid";
@@ -65,7 +62,6 @@ function electionResult(votes) {
     }
 }
 
-//Problem 4
 function isBestFriend(f1, f2) {
     if (typeof f1 !== "object" || typeof f2 !== "object" ||
         f1 === null || f2 === null) {
@@ -81,7 +77,6 @@ function isBestFriend(f1, f2) {
     }
 }
 
-//Problem 5
 function calculateWatchTime(times) {
     if (!Array.isArray(times)) {
         return "Invalid";
